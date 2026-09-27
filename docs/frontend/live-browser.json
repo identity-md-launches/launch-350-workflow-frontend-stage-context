@@ -1,0 +1,111 @@
+{
+  "checkedAt": "2026-09-27T06:39:24.805Z",
+  "mocked": false,
+  "transactionsSent": 0,
+  "errors": [],
+  "requests": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_chainId"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getCode"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getBlockByNumber"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_call"
+    },
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com/",
+      "method": "eth_getLogs"
+    }
+  ],
+  "state": "AN ONCHAIN PRICE OBSERVATORY\nA steadier view of price.\n\nOne pool. Two perspectives. Compare standard and truncated\ntime-weighted prices from the Geomean oracle.\n\nΞ\ng\nETH / GEOM\nUniswap v4 · 0.30% fee\n\nPRICE COMPARISON\nTime-weighted average price\n1h\n6h\n24h\nPrice units\nGEOM per ETH\nETH per GEOM\nStandard TWAP\n—\nGEOM per ETH\nTruncated TWAP\n—\nGEOM per ETH\nSeries divergence\n—\nStandard vs truncated\nNot enough history\n\nThe buffer does not retain the full 1-hour window. Grow the buffer to retain more future observations, then check again as history builds.\n\nInspect the observation buffer \nReal observations only · No estimated history\nBlock 11,791,593\nAs of 06:39:24 UTC\nORACLE CAPACITY\nObservation buffer\n1slot\nRequested capacity\n1 slot\nCurrent ring index\n0\nOldest retained observation\n46m ago\nLatest observation\n46m ago\nNew capacity\nslots\nGrow buffer\n\nConnect your wallet to grow the buffer. Anyone can add slots and pay the network fee. Larger increases cost more gas.\n\nMore slots retain more future observations. Growth takes effect on later writes; it cannot recover past history.\n\nRead directly from the chain\n\nBoth series come from the same oracle call. No offchain price feeds.\n\nTRADE THE POOL\nSwap ETH & GEOM\nTestnet\n\nQuotes come from Uniswap v4. Your wallet confirms every transaction.\n\nYou pay\nETH\nBalance: — ETH\nYou receive · estimated\n—\nGEOM\nRequest a quote to see the exchange rate\nSlippage tolerance\n%\n\n0.01%–5% · Pool fee 0.30%\n\nMinimum received\n—\nQuote expires in\n—\nGet quote\nSwap ETH for GEOM\n\nConnect your wallet to quote and swap.\n\nView Uniswap router \nBEHIND THE NUMBERS\nSame price. A different lens.\n01\nStandard follows the pool\n\nA geometric mean of price over time. Every recorded tick contributes, including sharp moves.\n\n02\nTruncated limits each step\n\nTick movement is capped at 9,116 per observation. Sudden moves have a smaller immediate effect; the series can still drift.\n\n03\nHistory grows with activity\n\nThe hook records the pre-swap tick at most once per timestamp. Slot capacity is not a count of filled observations or a time guarantee.\n\nExplore the oracle contract \nDeployment & recent activity",
+  "fontLoaded": true,
+  "outcome": "live reads rendered",
+  "1h": "Not enough history",
+  "6h": "Not enough history",
+  "24h": "Not enough history",
+  "noHorizontalOverflow": true
+}

@@ -1,0 +1,18 @@
+{
+  "actualRepositoryCommitCreated": false,
+  "reason": "Actual .git mount is read-only; bundle measured in disposable test/scratch Git clone.",
+  "measuredFullBundleBytes": 3322843,
+  "finalReportReserveBytes": 65536,
+  "completeBundleUpperBoundBytes": 3388379,
+  "measurementNote": "Measured existing Git history plus all deliverables, including a draft of this report. The reserve exceeds changes to this small final size report and Git commit metadata.",
+  "limitBytes": 8388608,
+  "remainingBytesAfterReserve": 5000229,
+  "deliveryFileCount": 53,
+  "deliveryFileBytes": 2629601,
+  "staticExportBytes": 641085,
+  "declaredAssets": 7,
+  "largestExportFileBytes": 548585,
+  "noDependencyCachesOrArchivesOrCrashDumps": true,
+  "noSubmodules": true,
+  "protectedPathsUnchanged": true
+}

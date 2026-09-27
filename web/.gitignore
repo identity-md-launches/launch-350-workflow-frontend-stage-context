@@ -1,0 +1,9 @@
+**/node_modules/
+**/.cache/
+**/.npm/
+**/.vite/
+**/coverage/
+**/playwright-report/
+**/test-results/
+*.tsbuildinfo
+**/core.[0-9]*

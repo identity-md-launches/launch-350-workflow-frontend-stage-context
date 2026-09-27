@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-09-27T06:39:17.673Z",
+  "browser": "154.0.8037.0",
+  "preview": "/preview/",
+  "mocked": true,
+  "realTransactionsSent": 0,
+  "checks": [
+    "Production subpath assets, disconnected reads, transaction gating, exactly one observe batch per window",
+    "All chart selectors, inverse units, and accessible 24-row data table",
+    "Keyboard skip link and window controls with focus screenshot",
+    "Wallet connect, wrong network, exact add-chain payload and retry switch",
+    "Growth validation, simulation, wallet request, confirmed receipt and refreshed requested capacity",
+    "Invalid slippage, insufficient balance and quoter revert preserve field feedback and block swaps",
+    "Native buy quotes by eth_call, simulates router execute, sends exact value without approvals",
+    "Token sale requires exact ERC-20 and Permit2 approvals, uses network router, and sends no ETH",
+    "Input changes and elapsed time invalidate quotes",
+    "Wallet rejection and simulation revert surface actionable errors; reverted simulation never requests a send",
+    "Insufficient retained history is explicit for all three windows",
+    "RPC history failures are distinguished from insufficient history",
+    "Account changes clear stale state and reload balances",
+    "Every quote targets the configured network quoter",
+    "Rendered contrast measurements and axe WCAG 2/2.1 AA automated scan",
+    "880/768/390/320px reflow, reduced motion, and 200% root text enlargement",
+    "Missing deployed code fails closed and disables transactions",
+    "Wrong RPC chain fails closed",
+    "Missing-wallet recovery preserves public reads",
+    "Connection rejection is recoverable",
+    "Rejected network switch stays visible and never requests chain addition",
+    "Tampered implementation ABI blocks application startup",
+    "No browser console errors or failed runtime resources in fixture session"
+  ],
+  "screenshots": [
+    "desktop.png",
+    "keyboard-focus.png",
+    "insufficient-history.png",
+    "880px.png",
+    "390px.png",
+    "320px.png",
+    "mobile-chart.png"
+  ],
+  "consoleErrors": [],
+  "failedResources": [],
+  "contrast": [
+    {
+      "selector": ".intro p",
+      "foreground": "rgb(93, 108, 99)",
+      "background": "rgb(245, 247, 244)",
+      "ratio": 5.142456466144718
+    },
+    {
+      "selector": ".legend-label",
+      "foreground": "rgb(93, 108, 99)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 5.539981272594517
+    },
+    {
+      "selector": ".card h2",
+      "foreground": "rgb(30, 51, 41)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 13.455039296414027
+    },
+    {
+      "selector": ".button.primary",
+      "foreground": "rgb(40, 69, 19)",
+      "background": "rgb(208, 230, 173)",
+      "ratio": 7.998527629891545
+    },
+    {
+      "selector": ".buffer-tip p",
+      "foreground": "rgb(93, 108, 99)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 5.539981272594517
+    },
+    {
+      "selector": ".about-card p",
+      "foreground": "rgb(93, 108, 99)",
+      "background": "rgb(238, 241, 237)",
+      "ratio": 4.864745214095078
+    },
+    {
+      "selector": ".chart-footer",
+      "foreground": "rgb(93, 108, 99)",
+      "background": "rgb(255, 255, 255)",
+      "ratio": 5.539981272594517
+    }
+  ],
+  "axe": [],
+  "outcome": "passed"
+}

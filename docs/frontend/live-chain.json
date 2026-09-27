@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-09-27T06:27:39.108Z",
+  "transactionsSent": 0,
+  "endpoints": [
+    {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "Geomean",
+          "address": "0xcd04aa75d52e36482548d20d7eb5942c98eef9c6",
+          "codeBytes": 1753
+        },
+        {
+          "name": "GeomeanOracleHook",
+          "address": "0x6785edd8028bfa68cbfd52e6b58c65bb7c769080",
+          "codeBytes": 8843
+        }
+      ],
+      "poolId": "0x53b7f3047dc5255310557bc6a3c5d693ad704ef64b0d4c28bfd2be1376c62636",
+      "block": "11791534",
+      "observationState": [
+        0,
+        1,
+        1
+      ],
+      "windows": [
+        {
+          "seconds": 3600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 21600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 86400,
+          "error": "The contract function \"observe\" reverted."
+        }
+      ]
+    },
+    {
+      "url": "https://rpc.sepolia.ethpandaops.io",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "Geomean",
+          "address": "0xcd04aa75d52e36482548d20d7eb5942c98eef9c6",
+          "codeBytes": 1753
+        },
+        {
+          "name": "GeomeanOracleHook",
+          "address": "0x6785edd8028bfa68cbfd52e6b58c65bb7c769080",
+          "codeBytes": 8843
+        }
+      ],
+      "poolId": "0x53b7f3047dc5255310557bc6a3c5d693ad704ef64b0d4c28bfd2be1376c62636",
+      "block": "11791534",
+      "observationState": [
+        0,
+        1,
+        1
+      ],
+      "windows": [
+        {
+          "seconds": 3600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 21600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 86400,
+          "error": "The contract function \"observe\" reverted."
+        }
+      ]
+    },
+    {
+      "url": "https://sepolia.rpc.sentio.xyz",
+      "chainId": 11155111,
+      "contracts": [
+        {
+          "name": "Geomean",
+          "address": "0xcd04aa75d52e36482548d20d7eb5942c98eef9c6",
+          "codeBytes": 1753
+        },
+        {
+          "name": "GeomeanOracleHook",
+          "address": "0x6785edd8028bfa68cbfd52e6b58c65bb7c769080",
+          "codeBytes": 8843
+        }
+      ],
+      "poolId": "0x53b7f3047dc5255310557bc6a3c5d693ad704ef64b0d4c28bfd2be1376c62636",
+      "block": "11791535",
+      "observationState": [
+        0,
+        1,
+        1
+      ],
+      "windows": [
+        {
+          "seconds": 3600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 21600,
+          "error": "The contract function \"observe\" reverted."
+        },
+        {
+          "seconds": 86400,
+          "error": "The contract function \"observe\" reverted."
+        }
+      ]
+    }
+  ]
+}

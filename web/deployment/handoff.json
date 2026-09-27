@@ -1,0 +1,53 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-245-geomeanoraclehook",
+  "version": 1,
+  "launchId": "6ca29016-f690-450d-be48-020824900bf6",
+  "manifest": {
+    "hook": {
+      "contract": "GeomeanOracleHook",
+      "permissions": [
+        "afterInitialize",
+        "beforeSwap"
+      ],
+      "constructorArgs": [
+        "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+      ]
+    },
+    "kind": "univ4_hook",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "78588986356927097284479352776873",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "GeomeanOracleHook extends OpenZeppelin's Panoptic BaseOracleHook. Its sole constructor argument is the approved Sepolia PoolManager; the base truncation limit is the source literal 9116. Only afterInitialize and beforeSwap are enabled (address bits 0x1080 under mask 0x3fff), with constructor address validation. PoolManager-only callbacks initialize per-PoolId history and record pre-swap standard and truncated tick cumulatives at most once per timestamp. beforeSwap returns zero deltas and no fee override. observe exposes both series; consult returns floor-rounded mean ticks and rejects zero windows or unavailable history. The ring starts at one slot and anyone may request growth. The pool orders native ETH as currency0 and GEOM as currency1. initialPrice is decimal sqrtPriceX96 from TickMath.getSqrtPriceAtTick(138000), matching the accepted launch harness and its GEOM-only seed. Geomean has no constructor arguments.",
+    "token": {
+      "name": "Geomean",
+      "symbol": "GEOM",
+      "contract": "Geomean",
+      "decimals": 18
+    }
+  },
+  "contracts": [
+    {
+      "name": "Geomean",
+      "txHash": "0xdf28b1bd6cbdeb9125d7efc444e457a99a810c5542dd06a78800d18d52af63b0",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "address": "0xcd04aa75d52e36482548d20d7eb5942c98eef9c6",
+      "blockNumber": 11791363,
+      "creationCodeHash": "fe9ebd27c2b1682e4de7e531e278cd4debbb211950cdbbaa6d7a11b64d80b0ce"
+    },
+    {
+      "name": "GeomeanOracleHook",
+      "txHash": "0xdf28b1bd6cbdeb9125d7efc444e457a99a810c5542dd06a78800d18d52af63b0",
+      "abiHash": "eb8dfeae79567a99517fe65e88f7bf8d97f330a41c2a1a552abec2c4a2583574",
+      "address": "0x6785edd8028bfa68cbfd52e6b58c65bb7c769080",
+      "blockNumber": 11791363,
+      "creationCodeHash": "4f47779f3ccb6a17edc05ed54f56d895afdfb91f19bef5b3998c4fbdcb851331"
+    }
+  ],
+  "sourceCommit": "0e2aace4c453d615bfb1f8bf59c0c6dcae25f046",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "2c9888a6724059619d5916b4d1e5c41232e2696b098cd6890e60dcbb3e353f32"
+}
